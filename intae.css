@@ -21,6 +21,15 @@ h1, h2, h3, h4, h5, h6{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+h5, h6{
+  font-family: verdana, arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
 h1{
   font-size: 250%
 }
@@ -32,6 +41,12 @@ h3{
 }
 h4{
   font-size: 125%;
+}
+h5{
+  font-size: 75%;
+}
+h6{
+  font-size: 50%;
 }
 a{
   text-decoration: none;
@@ -64,9 +79,32 @@ ul{
 li{
   margin-bottom: 1ex;
 }
-img{ 
+img{
+  margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.left{
   float: left;
   margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.right{
+  float: right;
+  margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.center{
+  display:block;
+  margin: auto;
   padding: 0em;
   padding-right: 1em;
   padding-top: 0.5em;
@@ -78,7 +116,8 @@ img.nofloat{
   padding: 0em;
 }
 .container{
-  width: 700px;
+  max-width: 700px;
+  height: auto;
   padding: 0em;
   padding-left: 3em;
 }
@@ -91,6 +130,7 @@ img.nofloat{
 }
 .menu{
   text-align: center;
+  font-size: 110%;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   margin: 0em;
