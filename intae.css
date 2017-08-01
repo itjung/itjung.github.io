@@ -148,6 +148,7 @@ img.nofloat{
   width: 100%
 }
 .footer{
+  text-align: center;
   color: #888;
   font-size: 80%;
   margin: 0em;
