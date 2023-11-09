@@ -1,2 +1,1 @@
-# homepage
-Intae Jung's Homepage
+# itjung.github.io

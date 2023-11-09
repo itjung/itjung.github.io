@@ -1,0 +1,171 @@
+/* default font sizes */
+body{
+  font: normal 13px/1.75em verdana, arial, sans-serif;
+  color: #000;
+  /* text-align: justify; */
+  background: #fff;
+  padding: 0em;
+  margin: 0em;
+}
+p{
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: verdana, arial, sans-serif;
+  font-weight: normal;
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+h5, h6{
+  font-family: verdana, arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+h1{
+  font-size: 250%
+}
+h2{
+  font-size: 200%
+}
+h3{
+  font-size: 150%;
+}
+h4{
+  font-size: 125%;
+}
+h5{
+  font-size: 85%;
+}
+h6{
+  font-size: 50%;
+}
+a{
+  text-decoration: none;
+  color: #008;
+}
+a:hover {
+  text-decoration: underline;
+}
+dl{
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.5em;
+}
+dt{
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0em;
+}
+dd{
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+ul{
+  list-style:none;
+}
+li{
+  margin-bottom: 1ex;
+}
+img{
+  margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.left{
+  float: left;
+  margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.right{
+  float: right;
+  margin: 0em;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.center{
+  display:block;
+  margin: auto;
+  padding: 0em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+img.nofloat{
+  float: none;
+  margin: 0em;
+  padding: 0em;
+}
+.container{
+  max-width: 800px;
+  height: auto;
+  padding: 0em;
+  padding-left: 3em;
+}
+.header{
+  text-align: center;
+  color: white;
+  margin: 0em;
+  padding: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-image: url('./M31_low_res.jpg'); 
+  background-size: cover;
+
+}
+.menu{
+  text-align: center;
+  font-size: 110%;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin: 0em;
+  padding: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.text{
+  margin: 0em;
+  padding: 0em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  clear: both;
+  overflow: auto;
+  width: 100%
+}
+.footer{
+  text-align: center;
+  color: #888;
+  font-size: 80%;
+  margin: 0em;
+  border-top: 1px solid #aaa;
+  padding: 0em;
+  padding-top: 0.5em;
+}
+div.footer a{
+  color: #88C;
+}
+.deemph{
+  color: #888;
+}
+div.deemph a{
+  color: #88C;
+}
