@@ -126,8 +126,8 @@ img.nofloat{
   color: white;
   margin: 0em;
   padding: 0em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   background-image: url('./CEERS-NIRCAM.jpeg'); 
   background-size: cover;
 
