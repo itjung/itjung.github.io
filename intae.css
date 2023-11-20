@@ -1,20 +1,26 @@
 /* default font sizes */
 body{
-  font: normal 13px/1.75em verdana, arial, sans-serif;
-  color: #000;
+  font: normal 13px/1.75em Times New Roman, serif;
+  color: #A4B3B6;
   /* text-align: justify; */
   background: #fff;
   padding: 0em;
+  padding-right:0em;
   margin: 0em;
+  font-size:90%;
 }
 p{
+  font-family: Times New Roman, serif;
   margin: 0em;
   padding: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  font-size: 120%;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: verdana, arial, sans-serif;
+  font-family: "Copperplate",Fantasy; 
   font-weight: normal;
   margin: 0em;
   padding: 0em;
@@ -22,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 0.5em;
 }
 h5, h6{
-  font-family: verdana, arial, sans-serif;
+  font-family: Garamond, serif;
   font-weight: normal;
   line-height: 1.4;
   margin: 0em;
@@ -31,26 +37,27 @@ h5, h6{
   padding-bottom: 0.2em;
 }
 h1{
-  font-size: 250%
+  font-size: 350%
 }
 h2{
-  font-size: 200%
+  font-size: 220%
 }
 h3{
-  font-size: 150%;
+  font-size: 180%;
 }
 h4{
-  font-size: 125%;
+  font-size: 150%;
 }
 h5{
-  font-size: 85%;
+  font-size: 120%;
 }
 h6{
-  font-size: 50%;
+  font-size: 100%;
 }
 a{
-  text-decoration: none;
-  color: #008;
+ color: #FCCD04;
+  text-decoration-thickness: 3px;
+  text-decoration-line: none;
 }
 a:hover {
   text-decoration: underline;
@@ -104,7 +111,7 @@ img.right{
 }
 img.center{
   display:block;
-  margin: auto;
+  margin: 0em;
   padding: 0em;
   padding-right: 1em;
   padding-top: 0.5em;
@@ -116,49 +123,51 @@ img.nofloat{
   padding: 0em;
 }
 .container{
-  max-width: 800px;
+  max-width: 3600px;
   height: auto;
   padding: 0em;
-  padding-left: 3em;
+  padding-left: 0.5em;
+  margin: 0em;
 }
 .header{
   text-align: center;
   color: white;
   margin: 0em;
   padding: 0em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-image: url('./CEERS-NIRCAM.jpeg'); 
   background-size: cover;
-
+  padding-left: 0.5em;
 }
 .menu{
+  font-family: "Copperplate",Fantasy;
   text-align: center;
-  font-size: 110%;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
+  font-size: 130%;
+  background-color: #61982F;
   margin: 0em;
-  padding: 0em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 0.0em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
 }
 .text{
   margin: 0em;
   padding: 0em;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
   clear: both;
   overflow: auto;
-  width: 100%
+  width: 100%;
+  background-color:#222629
 }
 .footer{
   text-align: center;
   color: #888;
   font-size: 80%;
   margin: 0em;
-  border-top: 1px solid #aaa;
   padding: 0em;
-  padding-top: 0.5em;
+  padding-top: 0.0em;
 }
 div.footer a{
   color: #88C;
