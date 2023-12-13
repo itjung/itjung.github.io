@@ -7,13 +7,15 @@ body{
   padding: 0em;
   padding-right:0em;
   padding-left:0em;
-  margin: 0em;
+  margin: 0em auto;
   font-size:90%;
+  width: 100%;
 }
+
 p{
   color: #A4B3B6;
   font-family: Times New Roman, serif;
-  margin: 0em;
+  margin: 0em auto;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.5em;
@@ -24,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
   color: #A4B3B6;
   font-family: "Copperplate",Fantasy; 
   font-weight: normal;
-  margin: 0em;
+  margin: 0em auto;
   padding-right:1em;
   padding-left:1em;
   padding-top: 0.5em;
@@ -35,7 +37,7 @@ h5, h6{
   font-family: Garamond, serif;
   font-weight: normal;
   line-height: 1.4;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -69,14 +71,14 @@ a:hover {
   text-decoration: underline;
 }
 dl{
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 0.5em;
   padding-right:0.5em;
   padding-left:0.5em;
 }
 dt{
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 0.5em;
   padding-bottom: 0em;
@@ -84,7 +86,7 @@ dt{
   padding-left:0.5em;
 }
 dd{
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
@@ -95,10 +97,10 @@ ul{
   list-style:none;
 }
 li{
-  margin-bottom: 1ex;
+  margin-bottom: 1ex auto;
 }
 img{
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-right:2em;
   padding-left:2em;
@@ -107,7 +109,7 @@ img{
 }
 img.left{
   float: left;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-right:2em;
   padding-left:2em;
@@ -116,7 +118,7 @@ img.left{
 }
 img.right{
   float: right;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-right:2em;
   padding-left:2em;
@@ -125,7 +127,7 @@ img.right{
 }
 img.center{
   display:block;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-right:2em;
   padding-left:2em;
@@ -134,7 +136,7 @@ img.center{
 }
 img.nofloat{
   float: none;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-right:2em;
   padding-left:2em;
@@ -142,15 +144,15 @@ img.nofloat{
   padding-bottom: 1em;
 }
 .container{
-  max-width: 3600px;
+  max-width: 1200px;
   height: auto;
   padding: 0em;
-  margin: 0em;
+  margin: 0em auto;
 }
 .header{
   text-align: center;
   color: white;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -162,13 +164,13 @@ img.nofloat{
   text-align: center;
   font-size: 130%;
   background-color: #61982F;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0.0em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
 }
 .text{
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -181,7 +183,7 @@ img.nofloat{
   text-align: center;
   color: #888;
   font-size: 80%;
-  margin: 0em;
+  margin: 0em auto;
   padding: 0em;
   padding-top: 0.0em;
 }
